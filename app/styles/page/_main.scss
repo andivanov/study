@@ -1,0 +1,28 @@
+.main {
+    min-height: 500px;
+    height: calc(100vh - 200px);
+    @include media($medium-screen) {
+        display: table;
+        height: calc(100vh - 299px);
+        .main-side {
+            display: table-cell;
+            width: 40%;
+        }
+        .main-content {
+            display: table-cell;
+            width: 60%;
+        }
+    }
+    @include media($large-screen) {
+        .main-side {
+            padding: 50px;
+            display: table-cell;
+            width: 30%;
+        }
+        .main-content {
+            padding: 50px;
+            display: table-cell;
+            width: 70%;
+        }
+    }
+}

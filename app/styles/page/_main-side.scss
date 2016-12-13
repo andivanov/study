@@ -1,0 +1,11 @@
+.main-side {
+    background: $side-bg;
+    color: $side-color;
+    padding: 25px;
+    @include media($medium-screen) {
+        padding: 50px 25px;
+    }
+    @include media($large-screen) {
+        padding: 50px;
+    }
+}

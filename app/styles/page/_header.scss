@@ -1,0 +1,20 @@
+
+.header {
+    background: $header-bg;
+    color: $header-color;
+}
+
+.header-title {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+    @include media($medium-screen) {
+        font-size: 3em;
+        padding: 60px 20px;
+    }
+    @include media($large-screen) {
+        text-align: left;
+        padding: 60px 50px;
+    }
+}
+

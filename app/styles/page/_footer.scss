@@ -1,0 +1,8 @@
+.footer {
+    background: $footer-bg;
+    color: $footer-color;
+    padding: 25px;
+    @include media($large-screen) {
+        padding: 25px 50px;
+    }
+}
