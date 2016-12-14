@@ -3,6 +3,7 @@
     height: calc(100vh - 200px);
     @include media($medium-screen) {
         display: table;
+        min-height: 300px;
         height: calc(100vh - 299px);
         .main-side {
             display: table-cell;
